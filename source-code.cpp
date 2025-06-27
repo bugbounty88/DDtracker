@@ -17,6 +17,6 @@ int main(int args, char *argv[]){
 		system("/bin/echo 'Program Is Now Ready'");
 		system("/bin/sleep 0.7");
 		system("/bin/sudo /bin/watch -n 1 'dmesg --kernel -H | grep Product: '");
-		system("/bin/echo 'Thanks For Testing My Program, Hamza (Github: hamza-kernel)'");
+		system("/bin/echo 'Thanks For Testing My Program, Hamza (Github: bugbounty88)'");
 	return 0;
 }
